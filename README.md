@@ -27,3 +27,12 @@ The application expects the variable in the format of `<hostname or IP>:<port>`.
 The application takes the content of this environment variable, splits it at the character `|` and passes them as tags to Consul.
 
 Have a look at the Fabio docs to get an idea which tags are required for you.
+
+## API
+
+As already mentioned the application is completely useless.
+
+It just exploses the following to endpoints:
+
+* `/` - friendly greeting including the hostname
+* `/health` - optimistic message, that all is fine
