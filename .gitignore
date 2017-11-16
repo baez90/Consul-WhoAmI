@@ -1,0 +1,87 @@
+# Sensitive or high-churn files:
+.idea/
+
+# CMake
+cmake-build-debug/
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# Ruby plugin and RubyMine
+/.rakeTasks
+
+*.iml
+modules.xml
+.idea/misc.xml
+*.ipr
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+### Gradle ###
+.gradle
+build/
+gradlew
+gradlew.bat
+
+# Cache of project
+.gradletasknamecache
+
+#Docker
+container_settings.json
+
+#Exclude JARs
+*.jar
+
+#Vert.X
+.vertx/
+**/vertx.*
+
+#Exclude Code Tracking Objects
+DemoApp/codealike.json
+
+# LaTeX temporary files
+*.aux
+*.log
+*.toc
+
+# PDF output - usually a bad idea to keep this in Git
+*.pdf
+
+# Latexmk
+*.fdb_latexmk
+
+# SyncTeX
+*.synctex.gz
+
+# LaTeX Beamer
+*.snm
+*.vrb
+*.nav
+*.out
+
+# BibTeX
+*.bbl
+*.blg
+
+# Log created by Adobe Reader
+C:\\nppdf32Log\\debuglog.txt
+
+# Sublime Text Project Files (usually contain absolute paths)
+*.sublime-project
+*.sublime-workspace
+
+*codealike.json
